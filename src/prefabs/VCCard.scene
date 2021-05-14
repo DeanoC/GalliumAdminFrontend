@@ -1,0 +1,195 @@
+{
+    "id": "f201e882-9660-4288-acc1-ac07050bb5d2",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "ClickableContainer",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 400,
+        "borderHeight": 800
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "ae8518d2-fd0a-458a-8a4b-854adaa9de5b",
+            "label": "container_1",
+            "components": [
+                "PushOnClick"
+            ],
+            "allowPickChildren": false,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "9c52e662-b558-4a29-8c11-227f5a7c9037",
+                    "label": "Card",
+                    "components": [],
+                    "scaleY": 2,
+                    "originX": 0,
+                    "originY": 0,
+                    "isFilled": true,
+                    "width": 403,
+                    "height": 404
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "c4865515-9be5-4f45-9c12-ab48595c6d43",
+                    "label": "PictureFrame",
+                    "components": [],
+                    "x": 204,
+                    "y": 223,
+                    "isFilled": true,
+                    "fillColor": "#2a2a2a",
+                    "width": 359,
+                    "height": 376
+                },
+                {
+                    "type": "Image",
+                    "id": "ea3a2f8b-3f7e-4458-9b7b-2684684e1759",
+                    "label": "image",
+                    "components": [],
+                    "texture": {
+                        "key": "S_dwarf icon"
+                    },
+                    "x": 204,
+                    "y": 221,
+                    "scaleX": 2.563761394602558,
+                    "scaleY": 2.2994694438485186
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "aacb7ba4-740b-467b-a830-9c7767ce8675",
+                    "label": "TextFrame",
+                    "components": [],
+                    "x": 205,
+                    "y": 613,
+                    "isFilled": true,
+                    "fillColor": "#2a2a2a",
+                    "width": 359,
+                    "height": 321
+                },
+                {
+                    "type": "Text",
+                    "id": "b6c5dde4-7fad-4a89-b5da-710213b82abe",
+                    "label": "RarityLabel",
+                    "components": [],
+                    "x": 44,
+                    "y": 408,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Rarity:",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#000000ff",
+                    "stroke": "#000000ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "ecc2f632-153f-4087-bbca-c77d2c2f4135",
+                    "label": "Rarit",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 226,
+                    "y": 408,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Common",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#000000ff",
+                    "stroke": "#000000ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "1fd17d96-5e40-4bc5-95c3-43a851284bb5",
+                    "label": "CharacterName",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 47,
+                    "y": 469,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Bob The Hero!",
+                    "align": "center",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "shadow.offsetX": 5,
+                    "shadow.offsetY": 5,
+                    "shadow.stroke": true,
+                    "shadow.fill": true
+                },
+                {
+                    "type": "Text",
+                    "id": "05eb7852-3dee-443a-98f5-3fba987d53da",
+                    "label": "PowerLabel",
+                    "components": [],
+                    "x": 43,
+                    "y": 511,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Power:",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "stroke": "#ffffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "307b8b37-b2ad-4760-9564-20fdfb22f28e",
+                    "label": "Power",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 196,
+                    "y": 511,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "0",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "stroke": "#ffffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "4ba5b8d2-822a-44ad-b367-5956697afb33",
+                    "label": "KeywordsLabel",
+                    "components": [],
+                    "x": 50,
+                    "y": 556,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Keywords",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "stroke": "#ffffffff"
+                },
+                {
+                    "type": "Text",
+                    "id": "bc9ff60a-9c2a-4759-bc72-4381210eb5aa",
+                    "label": "Keywords",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 89,
+                    "y": 608,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Mining\nBellyBash\nShort",
+                    "fontSize": "40px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "stroke": "#ffffffff"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

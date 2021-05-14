@@ -1,0 +1,91 @@
+{
+    "id": "271c8279-42f5-4a29-9e4f-149bc44e0145",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "GuiButtonBase",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 400,
+        "borderHeight": 50
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "6a807ab2-4a65-4088-a998-7b729c510f9c",
+            "label": "container_1",
+            "components": [
+                "PushOnClick"
+            ],
+            "list": [
+                {
+                    "type": "Text",
+                    "id": "121bc717-85ed-475c-b396-2de05f49c17c",
+                    "label": "Label",
+                    "components": [],
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Name:",
+                    "fontSize": "32px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Text",
+                    "id": "55b9e4f8-55df-4d3f-956d-280119114929",
+                    "label": "CharacterName",
+                    "components": [],
+                    "x": 100,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Bob The Hero!",
+                    "fontSize": "32px",
+                    "fontStyle": "bold"
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "b1be76be-558a-4c41-b404-b24b84f18641",
+                    "label": "focus_rect",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -8,
+                    "y": -5,
+                    "originX": 0,
+                    "originY": 0,
+                    "strokeColor": "#c9cf99",
+                    "lineWidth": 3,
+                    "width": 465,
+                    "height": 46
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "Text",
+            "label": "Text",
+            "tooltip": "Text to be edited",
+            "defValue": "Bob The Hero!",
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "Label",
+            "label": "Label",
+            "tooltip": "Label",
+            "defValue": "Name:",
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}

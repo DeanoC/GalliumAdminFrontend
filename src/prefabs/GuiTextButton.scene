@@ -1,0 +1,66 @@
+{
+    "id": "e4eff67e-d473-452c-bb74-53c85dfd6d3d",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "superClassName": "GuiButtonBase",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 2160,
+        "borderHeight": 2750
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "6455644f-673a-4ca0-acc0-2c33bac2de89",
+            "label": "container_1",
+            "components": [
+                "PushOnClick"
+            ],
+            "allowPickChildren": false,
+            "list": [
+                {
+                    "type": "Sprite",
+                    "id": "9a6da683-3f47-4140-9728-0afb43e08f7c",
+                    "label": "sprite",
+                    "components": [],
+                    "texture": {
+                        "key": "gui",
+                        "frame": "MenuContent_0014_Rectangle---------------.png"
+                    },
+                    "scaleX": 5,
+                    "scaleY": 5
+                },
+                {
+                    "type": "Text",
+                    "id": "80ec4961-2b25-4ca1-a9c6-aa6ba057caae",
+                    "label": "buttonText",
+                    "components": [],
+                    "text": "Missing Text!",
+                    "fontSize": "90px",
+                    "fontStyle": "bold"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "prefabProperties": [
+        {
+            "name": "Text",
+            "label": "Text",
+            "tooltip": "Text For Button",
+            "defValue": "Missing Text!",
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}

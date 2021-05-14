@@ -1,0 +1,180 @@
+{
+    "id": "be55b832-1d47-45f3-b751-18e45741b70b",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Characters",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderHeight": 1200
+    },
+    "displayList": [
+        {
+            "type": "Text",
+            "id": "3f624152-4c53-408c-9c7c-107aaad416fc",
+            "label": "Title",
+            "components": [],
+            "x": 402,
+            "y": 103,
+            "text": "Characters",
+            "align": "center",
+            "fontSize": "100px",
+            "fontStyle": "bold",
+            "stroke": "#ffffffff",
+            "shadow.offsetX": 10,
+            "shadow.offsetY": 10,
+            "shadow.stroke": true,
+            "shadow.fill": true
+        },
+        {
+            "prefabId": "f201e882-9660-4288-acc1-ac07050bb5d2",
+            "id": "8b7f7b85-086e-4071-a443-42f76dad7e01",
+            "unlock": [
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "vCCard",
+            "scope": "CLASS",
+            "components": [],
+            "x": 54,
+            "y": 752,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "Rectangle",
+            "id": "9d6f48ca-4b6d-40f7-83a5-530ce4d1b61f",
+            "label": "rectangle",
+            "components": [],
+            "x": 400,
+            "y": 709,
+            "isFilled": true,
+            "fillColor": "#5e5e5e",
+            "width": 737,
+            "height": 10
+        },
+        {
+            "prefabId": "e4eff67e-d473-452c-bb74-53c85dfd6d3d",
+            "id": "d54a544a-d13e-4690-8833-9be0c16a7fb6",
+            "unlock": [
+                "scaleX",
+                "scaleY",
+                "Text"
+            ],
+            "label": "Save",
+            "scope": "CLASS",
+            "Text": "Save",
+            "components": [],
+            "x": 666,
+            "y": 1136,
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "prefabId": "e4eff67e-d473-452c-bb74-53c85dfd6d3d",
+            "id": "91bf2c3e-ac3e-4d29-992d-c5a73bfb1409",
+            "unlock": [
+                "scaleX",
+                "scaleY",
+                "Text"
+            ],
+            "label": "Cancel",
+            "scope": "CLASS",
+            "Text": "Cancel",
+            "components": [],
+            "x": 435,
+            "y": 1135,
+            "scaleX": 0.3,
+            "scaleY": 0.3
+        },
+        {
+            "type": "Rectangle",
+            "id": "c81f423a-2907-4e26-a3e4-bb907a5b57d7",
+            "label": "rectangle_1",
+            "components": [],
+            "x": 278,
+            "y": 731,
+            "originX": 0,
+            "originY": 0,
+            "isFilled": true,
+            "fillColor": "#828282",
+            "width": 502,
+            "height": 345
+        },
+        {
+            "prefabId": "271c8279-42f5-4a29-9e4f-149bc44e0145",
+            "id": "da758bc9-a849-4439-b846-4e48dff9e854",
+            "label": "CharacterEditName",
+            "scope": "CLASS",
+            "components": [],
+            "x": 317,
+            "y": 748
+        },
+        {
+            "prefabId": "f201e882-9660-4288-acc1-ac07050bb5d2",
+            "id": "e37e7cd7-5773-4de9-9522-be394e2a82fa",
+            "unlock": [
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "vCCard_preview_1",
+            "scope": "CLASS",
+            "components": [],
+            "x": 50,
+            "y": 180,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "prefabId": "f201e882-9660-4288-acc1-ac07050bb5d2",
+            "id": "c2d83820-d7fb-404e-abe4-33b7f1f7c9fe",
+            "unlock": [
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "vCCard_preview_2",
+            "scope": "CLASS",
+            "components": [],
+            "x": 300,
+            "y": 180,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "prefabId": "f201e882-9660-4288-acc1-ac07050bb5d2",
+            "id": "4fcce3d1-6e5e-4763-bf47-d70c25fe88c1",
+            "unlock": [
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "vCCard_preview_3",
+            "scope": "CLASS",
+            "components": [],
+            "x": 550,
+            "y": 180,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "prefabId": "271c8279-42f5-4a29-9e4f-1491244e0145",
+            "id": "729a2398-d001-473f-bc9a-f86107e6f98b",
+            "unlock": [
+                "Label"
+            ],
+            "label": "guiLabelNumberEdit",
+            "scope": "CLASS",
+            "Label": "Power: ",
+            "components": [],
+            "x": 317,
+            "y": 796
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

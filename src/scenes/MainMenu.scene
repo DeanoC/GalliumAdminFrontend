@@ -1,0 +1,87 @@
+{
+    "id": "172f5a8b-98ca-4512-8dcd-84b5d79a2f12",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "MainMenu",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderHeight": 1200
+    },
+    "displayList": [
+        {
+            "type": "Text",
+            "id": "de15bba1-90ae-4ee7-b113-4ce82195cb15",
+            "label": "Title",
+            "components": [],
+            "x": 404,
+            "y": 69,
+            "text": "Minter",
+            "align": "center",
+            "fontSize": "100px",
+            "fontStyle": "bold",
+            "stroke": "#ffffffff",
+            "shadow.offsetX": 10,
+            "shadow.offsetY": 10,
+            "shadow.stroke": true,
+            "shadow.fill": true
+        },
+        {
+            "prefabId": "e4eff67e-d473-452c-bb74-53c85dfd6d3d",
+            "id": "91b42e83-15b2-4e86-bedd-7fcf7f878ea4",
+            "unlock": [
+                "Text",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "Characters",
+            "scope": "CLASS",
+            "Text": "Characters",
+            "components": [],
+            "x": 421,
+            "y": 366,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "Text",
+            "id": "f4023ad3-44dc-4bf8-8395-17e3519f5cab",
+            "label": "ConnectError",
+            "scope": "CLASS",
+            "components": [],
+            "x": 400,
+            "y": 164,
+            "text": "Error!!\nCan't connect to backend server!",
+            "align": "center",
+            "fontSize": "40px",
+            "fontStyle": "bold",
+            "stroke": "#ffffffff",
+            "shadow.offsetX": 10,
+            "shadow.offsetY": 10
+        },
+        {
+            "type": "Text",
+            "id": "64aa73d5-af7e-46e1-9602-4223bd274ae9",
+            "label": "ServerHello",
+            "scope": "CLASS",
+            "components": [],
+            "x": 400,
+            "y": 256,
+            "text": "Server Hello",
+            "align": "center",
+            "fontSize": "40px",
+            "fontStyle": "bold",
+            "stroke": "#ffffffff",
+            "shadow.offsetX": 10,
+            "shadow.offsetY": 10
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}
